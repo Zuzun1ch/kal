@@ -1,11 +1,13 @@
-# Welcome to your Jupyter Book
+# Sistem Persamaan Linier
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+## Definisi Sistem Persamaan Linier
 
-Check out the content pages bundled with this sample book to see more.
+## Solusi Persamaan Linier
+### Eliminasi
 
-```{tableofcontents}
-```
+<iframe scrolling="no" title="Simultaneous Equations:Elimination" src="https://www.geogebra.org/material/iframe/id/MXa3HKy3/width/977/height/574/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="977px" height="574px" style="border:0px;"> </iframe>
+
+### Eliminasi Gaus
+### Solusi Grafik
+
+<iframe scrolling="no" title="Solving Linear Systems by Graphing: REVAMPED" src="https://www.geogebra.org/material/iframe/id/vyxxahhq/width/824/height/529/border/888888/sfsb/true/smb/false/stb/true/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="824px" height="529px" style="border:0px;"> </iframe>
