@@ -4,6 +4,7 @@
 
 #### Soal 1 :
 Selesaikan menggunakan eliminasi gauss
+
 $$
 \begin{array}{cc}
 x_1+2x_2+3x_3z&=6\\
@@ -13,6 +14,7 @@ x_3+x_2&=2
 $$
 
 Penyelesaian :
+
 $$
 \begin{bmatrix}
 1&2&3&|6\\
@@ -32,6 +34,7 @@ $$
 $$
 
 - Solusi Akhir
+
 $$
 \begin{aligned}
 x_1&=2-t\\
@@ -41,9 +44,11 @@ x_3&=t
 $$
 
 - Jadi, solusi umum dari sistem persamaan adalah:
+
 $$
 [(x_1,x_2,x_3)=(2-t,2-t,t), \quad t \in \mathbb{R}]
 $$
+
 - Karena ada parameter bebas 𝑡, sistem ini memiliki banyak solusi.
 
 #### Soal 2 :
