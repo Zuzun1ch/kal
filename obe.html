@@ -364,12 +364,17 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-baris-elementer">Operasi Baris Elementer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-baris-elementer">Operasi Baris Elementer</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-dasar-obe">Operasi dasar OBE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-obe">Tujuan OBE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cara-menyelesaikan-spl-dengan-obe">Cara menyelesaikan SPL dengan OBE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cara-menerapkan-obe">Cara menerapkan OBE</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eliminasi-gauss">Eliminasi Gauss</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-1">Soal 1 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-2">Soal 2 :</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-2">Soal 2:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-3">Soal 3 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-4">Soal 4 :</a></li>
 </ul>
 </li>
 </ul>
@@ -383,33 +388,51 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="penyelesaian-sistem-persamaan-linier">
+  <section class="tex2jax_ignore mathjax_ignore" id="penyelesaian-sistem-persamaan-linier">
 <h1>Penyelesaian Sistem Persamaan Linier<a class="headerlink" href="#penyelesaian-sistem-persamaan-linier" title="Link to this heading">#</a></h1>
 <section id="operasi-baris-elementer">
 <h2>Operasi Baris Elementer<a class="headerlink" href="#operasi-baris-elementer" title="Link to this heading">#</a></h2>
+<p>Operasi Baris Elementer (OBE) adalah operasi yang dilakukan pada baris suatu matriks. OBE dapat digunakan untuk menyelesaikan sistem persamaan linear (SPL) dan menentukan invers matriks.</p>
+<section id="operasi-dasar-obe">
+<h3>Operasi dasar OBE<a class="headerlink" href="#operasi-dasar-obe" title="Link to this heading">#</a></h3>
+<p>Row Scalling: Mengalikan baris matriks dengan konstanta bukan nol
+Row Swaping: Menukar urutan baris pada sebuah matriks
+Row Replacement: Mengganti baris matriks dengan hasil penjumlahan atau pengurangan baris matriks tersebut dengan baris matriks lainnya</p>
+</section>
+<section id="tujuan-obe">
+<h3>Tujuan OBE<a class="headerlink" href="#tujuan-obe" title="Link to this heading">#</a></h3>
+<p>Tujuan OBE adalah untuk mengubah matriks menjadi bentuk yang paling sederhana agar mudah dipecahkan. Dalam proses perubahan tersebut, terdapat urutan operasi yang bermacam-macam.</p>
+</section>
+<section id="cara-menyelesaikan-spl-dengan-obe">
+<h3>Cara menyelesaikan SPL dengan OBE<a class="headerlink" href="#cara-menyelesaikan-spl-dengan-obe" title="Link to this heading">#</a></h3>
+<p>Dalam menyelesaikan SPL dengan OBE, tujuannya adalah untuk membentuk sistem persamaan linear baru yang mempunyai solusi yang sama dengan pemecahan yang lebih mudah.</p>
+</section>
+<section id="cara-menerapkan-obe">
+<h3>Cara menerapkan OBE<a class="headerlink" href="#cara-menerapkan-obe" title="Link to this heading">#</a></h3>
+<p>OBE dapat diterapkan dengan dua cara, yaitu eliminasi Gauss dan Gauss-Jordan.</p>
+</section>
 </section>
 <section id="eliminasi-gauss">
 <h2>Eliminasi Gauss<a class="headerlink" href="#eliminasi-gauss" title="Link to this heading">#</a></h2>
+<p>Metode eliminasi Gauss adalah metode untuk operasi nilai-nilai dalam matriks, untuk membuat matriks lebih sederhana lagi. Metode eliminasi gaus dikembangkan dari metode eliminasi, dengan cara menghilangkan atau mengurangi jumlah variabel, untuk mendapatkan nilai variabel bebas. Metode Eliminasi Gauss dikembangkan oleh Carl Friedrich Gauss (1777-1855). Carl adalah matematikawan berkebangsaan Jerman yang berkontribusi dalam geometri, teori bilangan, fungsi, dan teori probabilitas. Mengutip dari <a class="reference external" href="http://Rpubs.com">Rpubs.com</a>, eliminasi Gauss yang dikembangkan Carl bermanfaat untuk memecahkan sistem persamaan linear. Eliminasi Gauss mengubah persamaan linear menjadi bentuk matriks, kemudian diubah ke bentuk Eselon Baris melalui Operasi Baris Elementer. Setelah itu bentuk matriks diselesaikan dengan substitusi balik. Eliminasi Gauss ini berasal dari operasi matematika pada baris matriks yang dilanjutkan sampai tersisa satu variabel. Metode eliminasi Gauss dipakai untuk menyelesaikan persamaan dalam bidang astronomi. Berdasarkan <a class="reference external" href="http://Academia.edu">Academia.edu</a>, eliminasi Gauss adalah cara mengoperasikan nilai-nilai dalam matriks lebih sederhana. Caranya melakukan operasi baris sehingga matriks tersebut menjadi matriks eselon baris. Cara ini digunakan untuk penyelesaian persamaan linear menggunakan matriks. Persamaan linear masuk ke matriks teraugmentasi dan mengoperasikannya. Kemudian lakukan substitusi balik untuk mendapatkan nilai variabel.</p>
 <section id="soal-1">
 <h3>Soal 1 :<a class="headerlink" href="#soal-1" title="Link to this heading">#</a></h3>
-<p>Selesaikan menggunakan eliminasi gauss</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
+<p><strong>Selesaikan menggunakan eliminasi gauss</strong>
+$<span class="math notranslate nohighlight">\(
 \begin{array}{cc}
 x_1+2x_2+3x_3z&amp;=6\\
 2x_1+4x_2+6x_3&amp;=12\\
 x_3+x_2&amp;=2
 \end{array}
-\end{split}\]</div>
-<p>Penyelesaian :</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
+\)</span>$</p>
+<p>Penyelesaian :
+$<span class="math notranslate nohighlight">\(
 \begin{bmatrix}
 1&amp;2&amp;3&amp;|6\\
 0&amp;0&amp;0&amp;|0\\
 0&amp;1&amp;1&amp;|2
 \end{bmatrix}
-\end{split}\]</div>
+\)</span>$</p>
 <ul class="simple">
 <li><p>Tukar baris kedua dan ketiga untuk mendapatkan pivot lebih baik :</p></li>
 </ul>
@@ -422,57 +445,210 @@ x_3+x_2&amp;=2
 \end{bmatrix}
 \end{split}\]</div>
 <ul class="simple">
-<li><p>Solusi Akhir</p></li>
-</ul>
-<div class="math notranslate nohighlight">
-\[\begin{split}
+<li><p>Solusi Akhir
+$<span class="math notranslate nohighlight">\(
 \begin{aligned}
 x_1&amp;=2-t\\
 x_2&amp;=2-t\\
 x_3&amp;=t
 \end{aligned}
-\end{split}\]</div>
-<ul class="simple">
-<li><p>Jadi, solusi umum dari sistem persamaan adalah:</p></li>
-</ul>
-<div class="math notranslate nohighlight">
-\[
-[(x_1,x_2,x_3)=(2-t,2-t,t), \quad t \in \mathbb{R}]
-\]</div>
-<ul class="simple">
+\)</span>$</p></li>
+<li><p>Jadi, solusi umum dari sistem persamaan adalah:
+$<span class="math notranslate nohighlight">\(
+(x_1,x_2,x_3)=(2-t,2-t,t), \quad t \in \mathbb{R}
+\)</span>$</p></li>
 <li><p>Karena ada parameter bebas 𝑡, sistem ini memiliki banyak solusi.</p></li>
 </ul>
 </section>
 <section id="soal-2">
-<h3>Soal 2 :<a class="headerlink" href="#soal-2" title="Link to this heading">#</a></h3>
-<p>Selesaikan menggunakan eliminasi gauss
-$<span class="math notranslate nohighlight">\(
-\begin{array}{cc}
-x_1+x_2+x_3z&amp;=3\\
-2x_1+x_3&amp;=5\\
-x_1+2x_2&amp;=3
-\end{array}
-\)</span>$</p>
+<h3>Soal 2:<a class="headerlink" href="#soal-2" title="Link to this heading">#</a></h3>
+<p><strong>Selesaikan menggunakan eliminasi Gauss</strong></p>
+<p>\begin{array}{cc}
+x_1 + x_2 + x_3 &amp;= 3 \
+2x_1 + x_3 &amp;= 5 \
+x_1 + 2x_2 &amp;= 3
+\end{array}</p>
+<p><strong>Penyelesaian:</strong>
+<strong>Matriks Augmented:</strong></p>
+<p><strong>Tulis sistem persamaan dalam bentuk matriks augmented:</strong></p>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | &amp; 3 \
+2 &amp; 0 &amp; 1 &amp; | &amp; 5 \
+1 &amp; 2 &amp; 0 &amp; | &amp; 3
+\end{bmatrix}</p>
+<p><strong>Eliminasi Gauss:</strong></p>
+<ul class="simple">
+<li><p>Langkah 1: Gunakan baris pertama untuk mengeliminasi elemen di bawah pivot pertama (1 pada baris pertama).</p></li>
+<li><p>Baris 2: <span class="math notranslate nohighlight">\(( R_2 &lt;- R_2 - 2R_1 )\)</span></p></li>
+<li><p>Baris 3: <span class="math notranslate nohighlight">\(( R_3 &lt;- R_3 - R_1 )\)</span></p></li>
+</ul>
+<p><strong>Hasilnya:</strong></p>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | &amp; 3 \
+0 &amp; -2 &amp; -1 &amp; | &amp; -1 \
+0 &amp; 1 &amp; -1 &amp; | &amp; 0
+\end{bmatrix}</p>
+<ul class="simple">
+<li><p>Langkah 2: Gunakan baris kedua untuk mengeliminasi elemen di bawah pivot kedua (-2 pada baris kedua).</p></li>
+<li><p>Baris 3: <span class="math notranslate nohighlight">\(( R_3 &lt;- R_3 + \frac{1}{2}R_2 )\)</span></p></li>
+</ul>
+<p>Hasilnya:</p>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | &amp; 3 \
+0 &amp; -2 &amp; -1 &amp; | &amp; -1 \
+0 &amp; 0 &amp; -\frac{3}{2} &amp; | &amp; -\frac{1}{2}
+\end{bmatrix}</p>
+<p><strong>Substitusi Mundur:</strong></p>
+<ul class="simple">
+<li><p>Dari baris 3: <span class="math notranslate nohighlight">\(( -\frac{3}{2}x_3 = -\frac{1}{2} \Rightarrow x_3 = \frac{1}{3} )\)</span></p></li>
+<li><p>Dari baris 2:<span class="math notranslate nohighlight">\(( -2x_2 - x_3 = -1 \Rightarrow -2x_2 - \frac{1}{3} = -1 \Rightarrow x_2 = \frac{1}{3} )\)</span></p></li>
+<li><p>Dari baris 1: <span class="math notranslate nohighlight">\(( x_1 + x_2 + x_3 = 3 \Rightarrow x_1 + \frac{1}{3} + \frac{1}{3} = 3 \Rightarrow x_1 = \frac{7}{3} )\)</span></p></li>
+</ul>
+<p><strong>Solusi Akhir:</strong>
+<br />
+\begin{aligned}
+x_1 &amp;= \frac{7}{3} \
+x_2 &amp;= \frac{1}{3} \
+x_3 &amp;= \frac{1}{3}
+\end{aligned}</p>
 </section>
 <section id="soal-3">
 <h3>Soal 3 :<a class="headerlink" href="#soal-3" title="Link to this heading">#</a></h3>
-<p>Selesaikan menggunakan eliminasi gauss
+<p><strong>Selesaikan menggunakan eliminasi gauss</strong>
 $<span class="math notranslate nohighlight">\(
 \begin{array}{cc}
 2x_1+2x_2&amp;=4\\
 x_1+x_2&amp;=2
 \end{array}
-\)</span>$</p>
-</section>
-<section id="soal-4">
-<h3>Soal 4 :<a class="headerlink" href="#soal-4" title="Link to this heading">#</a></h3>
-<p>Selesaikan menggunakan eliminasi gauss
+\)</span>$
+{Penyelesaian:}</p>
+<ol class="arabic simple">
+<li><p><strong>Tulis sistem persamaan dalam bentuk matriks augmented:</strong></p></li>
+</ol>
+<p>[
+\begin{bmatrix}
+2 &amp; 2 &amp; | &amp; 4 \
+1 &amp; 1 &amp; | &amp; 2
+\end{bmatrix}
+]</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Lakukan operasi baris untuk mendapatkan bentuk eselon baris:</strong></p>
+<ul class="simple">
+<li><p><strong>Baris 1 = Baris 1 / 2:</strong></p></li>
+</ul>
+</li>
+</ol>
+<p>[
+\begin{bmatrix}
+1 &amp; 1 &amp; | &amp; 2 \
+1 &amp; 1 &amp; | &amp; 2
+\end{bmatrix}
+]</p>
+<ul class="simple">
+<li><p><strong>Baris 2 = Baris 2 - Baris 1:</strong></p></li>
+</ul>
+<p>[
+\begin{bmatrix}
+1 &amp; 1 &amp; | &amp; 2 \
+0 &amp; 0 &amp; | &amp; 0
+\end{bmatrix}
+]</p>
+<ol class="arabic" start="3">
+<li><p><strong>Analisis hasil eliminasi:</strong></p>
+<ul class="simple">
+<li><p>Baris kedua menunjukkan <span class="math notranslate nohighlight">\(( 0x_1 + 0x_2 = 0 )\)</span>, yang selalu benar. Ini berarti sistem persamaan memiliki banyak solusi (tergantung pada parameter bebas).</p></li>
+</ul>
+</li>
+<li><p><strong>Tentukan solusi umum:</strong></p>
+<ul>
+<li><p>Dari baris pertama:</p>
+<p><span class="math notranslate nohighlight">\([
+   x_1 + x_2 = 2 \implies x_1 = 2 - x_2
+   ]\)</span></p>
+</li>
+<li><p>Misalkan <span class="math notranslate nohighlight">\(( x_2 = t )\)</span>, di mana <span class="math notranslate nohighlight">\(( t )\)</span> adalah parameter bebas, maka:
+$<span class="math notranslate nohighlight">\(
+   [
+   x_1 = 2 - t
+   ]\)</span>$</p></li>
+</ul>
+</li>
+<li><p><strong>Solusi Akhir:</strong></p></li>
+</ol>
+<p>\begin{aligned}
+x_1 &amp;= 2 - t \
+x_2 &amp;= t
+\end{aligned}</p>
+<p>Jadi, solusi umum dari sistem persamaan adalah:</p>
+<p><span class="math notranslate nohighlight">\([
+\left(x_1, x_2\right) = \left(2 - t, t\right), \quad t \in \mathbb{R}
+]\)</span></p>
+<p>Sistem ini memiliki banyak solusi karena terdapat parameter bebas <span class="math notranslate nohighlight">\(( t )\)</span>.</p>
+<p>Soal 4 :
+Selesaikan menggunakan eliminasi gauss
 $<span class="math notranslate nohighlight">\(
 \begin{array}{cc}
 x_1+x_2&amp;=5\\
 x_1+2x_3&amp;=4
 \end{array}
 \)</span>$</p>
+<p>{Penyelesaian:}</p>
+<ol class="arabic simple">
+<li><p><strong>Tulis sistem persamaan dalam bentuk matriks augmented:</strong></p></li>
+</ol>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 0 &amp; | &amp; 5 \
+1 &amp; 0 &amp; 2 &amp; | &amp; 4
+\end{bmatrix}</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Lakukan operasi baris untuk mendapatkan bentuk eselon baris:</strong></p>
+<ul class="simple">
+<li><p><strong>Baris 2 = Baris 2 - Baris 1:</strong></p></li>
+</ul>
+</li>
+</ol>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 0 &amp; | &amp; 5 \
+0 &amp; -1 &amp; 2 &amp; | &amp; -1
+\end{bmatrix}</p>
+<ul class="simple">
+<li><p><strong>Baris 2 = Baris 2 / (-1):</strong></p></li>
+</ul>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 0 &amp; | &amp; 5 \
+0 &amp; 1 &amp; -2 &amp; | &amp; 1
+\end{bmatrix}</p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Lakukan substitusi mundur untuk menemukan solusi:</strong></p>
+<ul class="simple">
+<li><p>Dari baris 2:</p></li>
+</ul>
+</li>
+</ol>
+<p><span class="math notranslate nohighlight">\([
+x_2 - 2x_3 = 1 \implies x_2 = 1 + 2x_3
+]\)</span></p>
+<ul class="simple">
+<li><p>Dari baris 1:</p></li>
+</ul>
+<p><span class="math notranslate nohighlight">\([
+x_1 + x_2 = 5 \implies x_1 + (1 + 2x_3) = 5 \implies x_1 = 4 - 2x_3
+]\)</span></p>
+<ol class="arabic simple" start="4">
+<li><p><strong>Solusi Akhir:</strong></p></li>
+</ol>
+<p><span class="math notranslate nohighlight">\([
+\begin{aligned}
+x_1 &amp;= 4 - 2x_3 \\
+x_2 &amp;= 1 + 2x_3 \\
+x_3 &amp;= x_3
+\end{aligned}
+]\)</span></p>
+<p>Jadi, solusi dari sistem persamaan adalah:</p>
+<p><span class="math notranslate nohighlight">\([
+\left(x_1, x_2, x_3\right) = \left(4 - 2t, 1 + 2t, t\right), \quad t \in \mathbb{R}
+]\)</span></p>
+<p>Sistem ini memiliki banyak solusi karena terdapat parameter bebas <span class="math notranslate nohighlight">\(( t )\)</span>.</p>
 </section>
 </section>
 </section>
@@ -533,12 +709,17 @@ x_1+2x_3&amp;=4
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-baris-elementer">Operasi Baris Elementer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-baris-elementer">Operasi Baris Elementer</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#operasi-dasar-obe">Operasi dasar OBE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-obe">Tujuan OBE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cara-menyelesaikan-spl-dengan-obe">Cara menyelesaikan SPL dengan OBE</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cara-menerapkan-obe">Cara menerapkan OBE</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eliminasi-gauss">Eliminasi Gauss</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-1">Soal 1 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-2">Soal 2 :</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-2">Soal 2:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-3">Soal 3 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-4">Soal 4 :</a></li>
 </ul>
 </li>
 </ul>
