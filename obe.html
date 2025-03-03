@@ -372,10 +372,10 @@
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eliminasi-gauss">Eliminasi Gauss</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-1">Soal 1 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-2">Soal 2:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-3">Soal 3 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-4">Soal 4 :</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-1">Contoh Soal 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-2">Contoh Soal 2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-3">Contoh Soal 3</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-4">Contoh Soal 4</a></li>
 </ul>
 </li>
 </ul>
@@ -416,242 +416,265 @@ Row Replacement: Mengganti baris matriks dengan hasil penjumlahan atau pengurang
 <section id="eliminasi-gauss">
 <h2>Eliminasi Gauss<a class="headerlink" href="#eliminasi-gauss" title="Link to this heading">#</a></h2>
 <p>Metode eliminasi Gauss adalah metode untuk operasi nilai-nilai dalam matriks, untuk membuat matriks lebih sederhana lagi. Metode eliminasi gaus dikembangkan dari metode eliminasi, dengan cara menghilangkan atau mengurangi jumlah variabel, untuk mendapatkan nilai variabel bebas. Metode Eliminasi Gauss dikembangkan oleh Carl Friedrich Gauss (1777-1855). Carl adalah matematikawan berkebangsaan Jerman yang berkontribusi dalam geometri, teori bilangan, fungsi, dan teori probabilitas. Mengutip dari <a class="reference external" href="http://Rpubs.com">Rpubs.com</a>, eliminasi Gauss yang dikembangkan Carl bermanfaat untuk memecahkan sistem persamaan linear. Eliminasi Gauss mengubah persamaan linear menjadi bentuk matriks, kemudian diubah ke bentuk Eselon Baris melalui Operasi Baris Elementer. Setelah itu bentuk matriks diselesaikan dengan substitusi balik. Eliminasi Gauss ini berasal dari operasi matematika pada baris matriks yang dilanjutkan sampai tersisa satu variabel. Metode eliminasi Gauss dipakai untuk menyelesaikan persamaan dalam bidang astronomi. Berdasarkan <a class="reference external" href="http://Academia.edu">Academia.edu</a>, eliminasi Gauss adalah cara mengoperasikan nilai-nilai dalam matriks lebih sederhana. Caranya melakukan operasi baris sehingga matriks tersebut menjadi matriks eselon baris. Cara ini digunakan untuk penyelesaian persamaan linear menggunakan matriks. Persamaan linear masuk ke matriks teraugmentasi dan mengoperasikannya. Kemudian lakukan substitusi balik untuk mendapatkan nilai variabel.</p>
-<section id="soal-1">
-<h3>Soal 1 :<a class="headerlink" href="#soal-1" title="Link to this heading">#</a></h3>
-<p><strong>Selesaikan menggunakan eliminasi gauss</strong>
-$<span class="math notranslate nohighlight">\(
+<section id="contoh-soal-1">
+<h3>Contoh Soal 1<a class="headerlink" href="#contoh-soal-1" title="Link to this heading">#</a></h3>
+<p>Selesaikan dengan menggunakan eleminasi gauss</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 \begin{array}{cc}
-x_1+2x_2+3x_3z&amp;=6\\
+x_1+2x_2+3x_3&amp;=6\\
 2x_1+4x_2+6x_3&amp;=12\\
 x_3+x_2&amp;=2
 \end{array}
-\)</span>$</p>
-<p>Penyelesaian :
-$<span class="math notranslate nohighlight">\(
-\begin{bmatrix}
-1&amp;2&amp;3&amp;|6\\
-0&amp;0&amp;0&amp;|0\\
-0&amp;1&amp;1&amp;|2
-\end{bmatrix}
-\)</span>$</p>
-<ul class="simple">
-<li><p>Tukar baris kedua dan ketiga untuk mendapatkan pivot lebih baik :</p></li>
-</ul>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{bmatrix}
-1&amp;2&amp;3&amp;|6\\
-0&amp;1&amp;1&amp;|2\\
-0&amp;0&amp;0&amp;|0
-\end{bmatrix}
 \end{split}\]</div>
-<ul class="simple">
-<li><p>Solusi Akhir
-$<span class="math notranslate nohighlight">\(
-\begin{aligned}
-x_1&amp;=2-t\\
-x_2&amp;=2-t\\
-x_3&amp;=t
-\end{aligned}
-\)</span>$</p></li>
-<li><p>Jadi, solusi umum dari sistem persamaan adalah:
-$<span class="math notranslate nohighlight">\(
-(x_1,x_2,x_3)=(2-t,2-t,t), \quad t \in \mathbb{R}
-\)</span>$</p></li>
-<li><p>Karena ada parameter bebas 𝑡, sistem ini memiliki banyak solusi.</p></li>
-</ul>
-</section>
-<section id="soal-2">
-<h3>Soal 2:<a class="headerlink" href="#soal-2" title="Link to this heading">#</a></h3>
-<p><strong>Selesaikan menggunakan eliminasi Gauss</strong></p>
+<p>Penyelesaian
+Langkah 1: Tulis dalam Bentuk Matriks Augmented
+Bentuk matriks augmented dari sistem ini adalah:</p>
+<p>\begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; | 6 \
+2 &amp; 4 &amp; 6 &amp; | 12 \
+0 &amp; 1 &amp; 1 &amp; | 2
+\end{bmatrix}</p>
+<p>Langkah 2: Eliminasi Baris
+Kita akan menghilangkan elemen di bawah elemen utama di kolom pertama. Gunakan operasi:</p>
 <p>\begin{array}{cc}
-x_1 + x_2 + x_3 &amp;= 3 \
-2x_1 + x_3 &amp;= 5 \
-x_1 + 2x_2 &amp;= 3
+R_2 \rightarrow R_2 - 2R_1
 \end{array}</p>
-<p><strong>Penyelesaian:</strong>
-<strong>Matriks Augmented:</strong></p>
-<p><strong>Tulis sistem persamaan dalam bentuk matriks augmented:</strong></p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | &amp; 3 \
-2 &amp; 0 &amp; 1 &amp; | &amp; 5 \
-1 &amp; 2 &amp; 0 &amp; | &amp; 3
+<p>Sehingga:</p>
+<p><br />
+\begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; | 6 \
+0 &amp; 0 &amp; 0 &amp; | 0 \
+0 &amp; 1 &amp; 1 &amp; | 2
 \end{bmatrix}</p>
-<p><strong>Eliminasi Gauss:</strong></p>
-<ul class="simple">
-<li><p>Langkah 1: Gunakan baris pertama untuk mengeliminasi elemen di bawah pivot pertama (1 pada baris pertama).</p></li>
-<li><p>Baris 2: <span class="math notranslate nohighlight">\(( R_2 &lt;- R_2 - 2R_1 )\)</span></p></li>
-<li><p>Baris 3: <span class="math notranslate nohighlight">\(( R_3 &lt;- R_3 - R_1 )\)</span></p></li>
-</ul>
-<p><strong>Hasilnya:</strong></p>
+<p>Langkah 3: Interpretasi
+Baris kedua dirubah menjadi <em>0 = 0</em></p>
+<p>\begin{aligned}
+x_1 + 2x_2 + 3x_3 &amp;= 6 \
+x_2 + x_3 &amp;= 2
+\end{aligned}</p>
+<p>Langkah 4: Substitusi
+Dari persamaan kedua:</p>
+<p>\begin{array}{cc}
+x_2 = 2 - x_3
+\end{array}</p>
+<p>Substitusikan ke persamaan pertama:</p>
+<p>\begin{array}{cc}
+x_1 + 2(2 - x_3) + 3x_3&amp; = 6\
+x_1 + 4 - 2x_3 + 3x_3&amp; = 6\
+x_1 + 4 + x_3&amp; = 6\
+x_1 =&amp; 2 - x_3
+\end{array}</p>
+<p>Kesimpulan
+Solusi umum dari sistem ini adalah:</p>
+<p>\begin{aligned}
+x_1 &amp;= 2 - x_3 \
+x_2 &amp;= 2 - x_3 \
+x_3 &amp;= x_3
+\end{aligned}</p>
+</section>
+<section id="contoh-soal-2">
+<h3>Contoh Soal 2<a class="headerlink" href="#contoh-soal-2" title="Link to this heading">#</a></h3>
+<p>Selesaikan dengan menggunakan eliminasi gauss
+$<span class="math notranslate nohighlight">\(
+\begin{array}{cc}
+x_1+x_2+x_3&amp;=3\\
+2x_1+x_3&amp;=5\\
+x_1+2x_2&amp;=3
+\end{array}
+\)</span>$</p>
+<p>Penyelesaian
+Langkah 1: Tulis dalam Bentuk Matriks Augmented</p>
 <p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | &amp; 3 \
-0 &amp; -2 &amp; -1 &amp; | &amp; -1 \
-0 &amp; 1 &amp; -1 &amp; | &amp; 0
+1 &amp; 1 &amp; 1 &amp; | 3 \
+2 &amp; 0 &amp; 1 &amp; | 5 \
+1 &amp; 2 &amp; 0 &amp; | 3
 \end{bmatrix}</p>
-<ul class="simple">
-<li><p>Langkah 2: Gunakan baris kedua untuk mengeliminasi elemen di bawah pivot kedua (-2 pada baris kedua).</p></li>
-<li><p>Baris 3: <span class="math notranslate nohighlight">\(( R_3 &lt;- R_3 + \frac{1}{2}R_2 )\)</span></p></li>
-</ul>
+<p>Langkah 2: Eliminasi Baris
+Kita akan menghilangkan elemen di bawah elemen utama di kolom pertama.</p>
+<p>\begin{array}{cc}
+R_2 \rightarrow R_2 - 2R_1
+\end{array}</p>
+<p>\begin{array}{cc}
+R_3 \rightarrow R_3 - R_1
+\end{array}</p>
+<p>Sehingga matriks berubah menjadi:</p>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 3 \
+0 &amp; -2 &amp; -1 &amp; | -1 \
+0 &amp; 1 &amp; -1 &amp; | 0
+\end{bmatrix}</p>
+<p>Selanjutnya, buat elemen utama di baris kedua menjadi 1 dengan membagi baris kedua dengan -2:</p>
+<p>\begin{array}{cc}
+R_2 \rightarrow \frac{R_2}{-2}
+\end{array}</p>
 <p>Hasilnya:</p>
 <p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | &amp; 3 \
-0 &amp; -2 &amp; -1 &amp; | &amp; -1 \
-0 &amp; 0 &amp; -\frac{3}{2} &amp; | &amp; -\frac{1}{2}
+1 &amp; 1 &amp; 1 &amp; | 3 \
+0 &amp; 1 &amp; \frac{1}{2} &amp; | \frac{1}{2} \
+0 &amp; 1 &amp; -1 &amp; | 0
 \end{bmatrix}</p>
-<p><strong>Substitusi Mundur:</strong></p>
-<ul class="simple">
-<li><p>Dari baris 3: <span class="math notranslate nohighlight">\(( -\frac{3}{2}x_3 = -\frac{1}{2} \Rightarrow x_3 = \frac{1}{3} )\)</span></p></li>
-<li><p>Dari baris 2:<span class="math notranslate nohighlight">\(( -2x_2 - x_3 = -1 \Rightarrow -2x_2 - \frac{1}{3} = -1 \Rightarrow x_2 = \frac{1}{3} )\)</span></p></li>
-<li><p>Dari baris 1: <span class="math notranslate nohighlight">\(( x_1 + x_2 + x_3 = 3 \Rightarrow x_1 + \frac{1}{3} + \frac{1}{3} = 3 \Rightarrow x_1 = \frac{7}{3} )\)</span></p></li>
-</ul>
-<p><strong>Solusi Akhir:</strong>
-<br />
+<p>Kemudian eliminasi elemen di bawah elemen utama dengan:</p>
+<p>\begin{array}{cc}
+R_3 \rightarrow R_3 - R_2
+\end{array}</p>
+<p>Sehingga diperoleh:
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 3 \
+0 &amp; 1 &amp; \frac{1}{2} &amp; | \frac{1}{2} \
+0 &amp; 0 &amp; -\frac{3}{2} &amp; | -\frac{1}{2}
+\end{bmatrix}
+Langkah 3: Substitusi Balik*
+Dari baris ketiga:</p>
+<p>\begin{array}{cc}
+-\frac{3}{2} x_3 = -\frac{1}{2}
+\end{array}</p>
+<p>\begin{array}{cc}
+x_3 = \frac{1}{3}
+\end{array}</p>
+<p>Dari baris kedua:</p>
+<p>\begin{array}{cc}
+x_2 + \frac{1}{2} x_3 = \frac{1}{2}
+\end{array}</p>
+<p>\begin{array}{cc}
+x_2 + \frac{1}{2} \times \frac{1}{3} = \frac{1}{2}
+\end{array}</p>
+<p>\begin{array}{cc}
+x_2 + \frac{1}{6} = \frac{1}{2}
+\end{array}</p>
+<p>\begin{array}{cc}
+x_2 = \frac{1}{2} - \frac{1}{6} = \frac{3}{6} - \frac{1}{6} = \frac{2}{6} = \frac{1}{3}
+\end{array}</p>
+<p>Dari baris pertama:
+\begin{array}{cc}
+x_1 + x_2 + x_3 = 3
+\end{array}</p>
+<p>\begin{array}{cc}
+x_1 + \frac{1}{3} + \frac{1}{3} = 3
+\end{array}</p>
+<p>\begin{array}{cc}
+x_1 = 3 - \frac{2}{3} = \frac{9}{3} - \frac{2}{3} = \frac{7}{3}
+\end{array}</p>
+<p>Kesimpulan
+Jadi, solusi dari sistem persamaan adalah:
 \begin{aligned}
 x_1 &amp;= \frac{7}{3} \
 x_2 &amp;= \frac{1}{3} \
 x_3 &amp;= \frac{1}{3}
 \end{aligned}</p>
 </section>
-<section id="soal-3">
-<h3>Soal 3 :<a class="headerlink" href="#soal-3" title="Link to this heading">#</a></h3>
-<p><strong>Selesaikan menggunakan eliminasi gauss</strong>
+<section id="contoh-soal-3">
+<h3>Contoh Soal 3<a class="headerlink" href="#contoh-soal-3" title="Link to this heading">#</a></h3>
+<p>Selesaikan dengan menggunakan eliminasi gauss
 $<span class="math notranslate nohighlight">\(
 \begin{array}{cc}
 2x_1+2x_2&amp;=4\\
 x_1+x_2&amp;=2
 \end{array}
-\)</span>$
-{Penyelesaian:}</p>
-<ol class="arabic simple">
-<li><p><strong>Tulis sistem persamaan dalam bentuk matriks augmented:</strong></p></li>
-</ol>
-<p>[
-\begin{bmatrix}
-2 &amp; 2 &amp; | &amp; 4 \
-1 &amp; 1 &amp; | &amp; 2
-\end{bmatrix}
-]</p>
-<ol class="arabic simple" start="2">
-<li><p><strong>Lakukan operasi baris untuk mendapatkan bentuk eselon baris:</strong></p>
-<ul class="simple">
-<li><p><strong>Baris 1 = Baris 1 / 2:</strong></p></li>
-</ul>
-</li>
-</ol>
-<p>[
-\begin{bmatrix}
-1 &amp; 1 &amp; | &amp; 2 \
-1 &amp; 1 &amp; | &amp; 2
-\end{bmatrix}
-]</p>
-<ul class="simple">
-<li><p><strong>Baris 2 = Baris 2 - Baris 1:</strong></p></li>
-</ul>
-<p>[
-\begin{bmatrix}
-1 &amp; 1 &amp; | &amp; 2 \
-0 &amp; 0 &amp; | &amp; 0
-\end{bmatrix}
-]</p>
-<ol class="arabic" start="3">
-<li><p><strong>Analisis hasil eliminasi:</strong></p>
-<ul class="simple">
-<li><p>Baris kedua menunjukkan <span class="math notranslate nohighlight">\(( 0x_1 + 0x_2 = 0 )\)</span>, yang selalu benar. Ini berarti sistem persamaan memiliki banyak solusi (tergantung pada parameter bebas).</p></li>
-</ul>
-</li>
-<li><p><strong>Tentukan solusi umum:</strong></p>
-<ul>
-<li><p>Dari baris pertama:</p>
-<p><span class="math notranslate nohighlight">\([
-   x_1 + x_2 = 2 \implies x_1 = 2 - x_2
-   ]\)</span></p>
-</li>
-<li><p>Misalkan <span class="math notranslate nohighlight">\(( x_2 = t )\)</span>, di mana <span class="math notranslate nohighlight">\(( t )\)</span> adalah parameter bebas, maka:
-$<span class="math notranslate nohighlight">\(
-   [
-   x_1 = 2 - t
-   ]\)</span>$</p></li>
-</ul>
-</li>
-<li><p><strong>Solusi Akhir:</strong></p></li>
-</ol>
-<p>\begin{aligned}
-x_1 &amp;= 2 - t \
-x_2 &amp;= t
-\end{aligned}</p>
-<p>Jadi, solusi umum dari sistem persamaan adalah:</p>
-<p><span class="math notranslate nohighlight">\([
-\left(x_1, x_2\right) = \left(2 - t, t\right), \quad t \in \mathbb{R}
-]\)</span></p>
-<p>Sistem ini memiliki banyak solusi karena terdapat parameter bebas <span class="math notranslate nohighlight">\(( t )\)</span>.</p>
+\)</span>$</p>
+<p>Penyelesaian
+Langkah 1 : Menyelesaikan ke bentuk matriks augmented</p>
+<p>\begin{bmatrix}
+2 &amp; 2 &amp; | 4 \
+1 &amp; 1 &amp; | 2
+\end{bmatrix}</p>
+<p>Langkah 2 : membuat elemen di bawah pivot menjadi nol.</p>
+<p>\begin{array}{cc}
+R_1 \leftarrow R_1 - 2R_2
+\end{array}</p>
+<p>Setelah melakukan perhitungan kita mendapatkan :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{cc}
+R_1: 2 - 2 \cdot 1 = 0\\
+2 - 2 \cdot 1 = 0\\
+4 - 2 \cdot 2 = 0
+\end{array}
+\end{split}\]</div>
+<p>Sehingga matriks augmented menjadi :</p>
+<p>\begin{bmatrix}
+1 &amp; 1 &amp; | 2 \
+0 &amp; 0 &amp; | 0
+\end{bmatrix}</p>
+<p>Dari baris kedua, kita dapat mengekspresikan (x_1) dalam bentuk (x_2):</p>
+<p>\begin{array}{cc}
+x_1 + x_2 = 2 \Rightarrow x_1 = 2 - x_2
+\end{array}</p>
+<p>Karena kita memiliki satu persamaan dengan dua variabel, kita dapat menyatakan solusi dalam bentuk parameter. Misalkan (x_2 = t), maka:</p>
+<p>\begin{array}{cc}
+x_1 = 2 - t
+\end{array}</p>
+<p>Jadi, solusi umum dari sistem persamaan ini adalah:</p>
+<p>\begin{cases}
+x_1 = 2 - t\
+x_2 = t
+\end{cases}</p>
+<p>di mana (t) adalah parameter bebas.</p>
 </section>
-<section id="soal-4">
-<h3>Soal 4 :<a class="headerlink" href="#soal-4" title="Link to this heading">#</a></h3>
-<p>Selesaikan menggunakan eliminasi gauss
+<section id="contoh-soal-4">
+<h3>Contoh Soal 4<a class="headerlink" href="#contoh-soal-4" title="Link to this heading">#</a></h3>
+<p>Selesaikan dengan menggunakan eliminasi gauss
 $<span class="math notranslate nohighlight">\(
 \begin{array}{cc}
 x_1+x_2&amp;=5\\
-x_1+2x_3&amp;=4
+x_1+2x_3&amp;=6\\
 \end{array}
 \)</span>$</p>
-<p>{Penyelesaian:}</p>
+<p>Penyelesaian :</p>
 <ol class="arabic simple">
-<li><p><strong>Tulis sistem persamaan dalam bentuk matriks augmented:</strong></p></li>
+<li><p>Tulis sistem persamaan dalam bentuk matriks augmented:</p></li>
 </ol>
 <p>\begin{bmatrix}
 1 &amp; 1 &amp; 0 &amp; | &amp; 5 \
 1 &amp; 0 &amp; 2 &amp; | &amp; 4
 \end{bmatrix}</p>
 <ol class="arabic simple" start="2">
-<li><p><strong>Lakukan operasi baris untuk mendapatkan bentuk eselon baris:</strong></p>
-<ul class="simple">
-<li><p><strong>Baris 2 = Baris 2 - Baris 1:</strong></p></li>
-</ul>
-</li>
+<li><p>Lakukan operasi baris untuk mendapatkan bentuk eselon baris:</p></li>
 </ol>
+<p>\begin{array}{cc}
+R_2 \rightarrow R_2
+\end{array}</p>
+<p>Hasilnya :</p>
 <p>\begin{bmatrix}
 1 &amp; 1 &amp; 0 &amp; | &amp; 5 \
 0 &amp; -1 &amp; 2 &amp; | &amp; -1
 \end{bmatrix}</p>
-<ul class="simple">
-<li><p><strong>Baris 2 = Baris 2 / (-1):</strong></p></li>
-</ul>
+<p>\begin{array}{cc}
+R_2 \rightarrow \frac{R_2}{-1}
+\end{array}</p>
+<p>Hasilnya :</p>
 <p>\begin{bmatrix}
 1 &amp; 1 &amp; 0 &amp; | &amp; 5 \
 0 &amp; 1 &amp; -2 &amp; | &amp; 1
 \end{bmatrix}</p>
 <ol class="arabic simple" start="3">
-<li><p><strong>Lakukan substitusi mundur untuk menemukan solusi:</strong></p>
+<li><p>Lakukan substitusi mundur untuk menemukan solusi:</p></li>
+</ol>
 <ul class="simple">
 <li><p>Dari baris 2:</p></li>
 </ul>
-</li>
-</ol>
-<p><span class="math notranslate nohighlight">\([
-x_2 - 2x_3 = 1 \implies x_2 = 1 + 2x_3
-]\)</span></p>
+<p>\begin{array}{cc}
+x_1 + x_2 = 2 \Rightarrow x_1 = 2 - x_2
+\end{array}</p>
 <ul class="simple">
 <li><p>Dari baris 1:</p></li>
 </ul>
-<p><span class="math notranslate nohighlight">\([
+<p>\begin{array}{cc}
 x_1 + x_2 = 5 \implies x_1 + (1 + 2x_3) = 5 \implies x_1 = 4 - 2x_3
-]\)</span></p>
+\end{array}</p>
 <ol class="arabic simple" start="4">
-<li><p><strong>Solusi Akhir:</strong></p></li>
+<li><p>Solusi Akhir:</p></li>
 </ol>
-<p><span class="math notranslate nohighlight">\([
-\begin{aligned}
-x_1 &amp;= 4 - 2x_3 \\
-x_2 &amp;= 1 + 2x_3 \\
+<p>\begin{aligned}
+x_1 &amp;= 4 - 2x_3 \
+x_2 &amp;= 1 + 2x_3 \
 x_3 &amp;= x_3
-\end{aligned}
-]\)</span></p>
+\end{aligned}</p>
 <p>Jadi, solusi dari sistem persamaan adalah:</p>
-<p><span class="math notranslate nohighlight">\([
+<p>\begin{array}{cc}
 \left(x_1, x_2, x_3\right) = \left(4 - 2t, 1 + 2t, t\right), \quad t \in \mathbb{R}
-]\)</span></p>
-<p>Sistem ini memiliki banyak solusi karena terdapat parameter bebas <span class="math notranslate nohighlight">\(( t )\)</span>.</p>
+\end{array}</p>
+<p>Sistem ini memiliki banyak solusi karena terdapat parameter bebas <span class="math notranslate nohighlight">\(( t )\)</span>.</p>
 </section>
 </section>
 </section>
@@ -720,10 +743,10 @@ x_3 &amp;= x_3
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eliminasi-gauss">Eliminasi Gauss</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-1">Soal 1 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-2">Soal 2:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-3">Soal 3 :</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#soal-4">Soal 4 :</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-1">Contoh Soal 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-2">Contoh Soal 2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-3">Contoh Soal 3</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal-4">Contoh Soal 4</a></li>
 </ul>
 </li>
 </ul>
