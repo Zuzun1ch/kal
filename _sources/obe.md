@@ -202,7 +202,7 @@ $[
 Sistem ini memiliki banyak solusi karena terdapat parameter bebas $( t )$.
 
 
-Soal 4 :
+#### Soal 4 :
 Selesaikan menggunakan eliminasi gauss
 $$
 \begin{array}{cc}
