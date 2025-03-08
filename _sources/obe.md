@@ -15,7 +15,7 @@ OBE dapat diterapkan dengan dua cara, yaitu eliminasi Gauss dan Gauss-Jordan.
 ## Eliminasi Gauss
 Metode eliminasi Gauss adalah metode untuk operasi nilai-nilai dalam matriks, untuk membuat matriks lebih sederhana lagi. Metode eliminasi gaus dikembangkan dari metode eliminasi, dengan cara menghilangkan atau mengurangi jumlah variabel, untuk mendapatkan nilai variabel bebas. Metode Eliminasi Gauss dikembangkan oleh Carl Friedrich Gauss (1777-1855). Carl adalah matematikawan berkebangsaan Jerman yang berkontribusi dalam geometri, teori bilangan, fungsi, dan teori probabilitas. Mengutip dari Rpubs.com, eliminasi Gauss yang dikembangkan Carl bermanfaat untuk memecahkan sistem persamaan linear. Eliminasi Gauss mengubah persamaan linear menjadi bentuk matriks, kemudian diubah ke bentuk Eselon Baris melalui Operasi Baris Elementer. Setelah itu bentuk matriks diselesaikan dengan substitusi balik. Eliminasi Gauss ini berasal dari operasi matematika pada baris matriks yang dilanjutkan sampai tersisa satu variabel. Metode eliminasi Gauss dipakai untuk menyelesaikan persamaan dalam bidang astronomi. Berdasarkan Academia.edu, eliminasi Gauss adalah cara mengoperasikan nilai-nilai dalam matriks lebih sederhana. Caranya melakukan operasi baris sehingga matriks tersebut menjadi matriks eselon baris. Cara ini digunakan untuk penyelesaian persamaan linear menggunakan matriks. Persamaan linear masuk ke matriks teraugmentasi dan mengoperasikannya. Kemudian lakukan substitusi balik untuk mendapatkan nilai variabel.
 
-#### Contoh Soal 1
+### Contoh Soal 1
 Selesaikan dengan menggunakan eleminasi gauss
 
 $$
@@ -88,7 +88,7 @@ x_3 &= x_3
 \end{aligned}
 
 
-#### Contoh Soal 2 
+### Contoh Soal 2 
 Selesaikan dengan menggunakan eliminasi gauss
 $$
 \begin{array}{cc}
@@ -202,7 +202,9 @@ x_2 &= \frac{1}{3} \\
 x_3 &= \frac{1}{3}
 \end{aligned}
 
-#### Contoh Soal 3 
+<iframe scrolling="no" title="Lab11 System of Equations - Multivariable" src="https://www.geogebra.org/material/iframe/id/dmIAq6KX/width/1164/height/816/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/true/ld/false/sdz/true/ctl/false" width="1164px" height="816px" style="border:0px;"> </iframe>
+
+### Contoh Soal 3 
 Selesaikan dengan menggunakan eliminasi gauss
 $$
 \begin{array}{cc}
@@ -264,7 +266,7 @@ x_2 = t
 
 di mana (t) adalah parameter bebas.
 
-#### Contoh Soal 4 
+### Contoh Soal 4 
 Selesaikan dengan menggunakan eliminasi gauss
 $$
 \begin{array}{cc}
