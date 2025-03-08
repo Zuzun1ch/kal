@@ -31,8 +31,8 @@ Langkah 1: Tulis dalam Bentuk Matriks Augmented
 Bentuk matriks augmented dari sistem ini adalah:
 
 \begin{bmatrix}
-1 & 2 & 3 & | 6 \\
-2 & 4 & 6 & | 12 \\
+1 & 2 & 3 & | 6 \
+2 & 4 & 6 & | 12 \
 0 & 1 & 1 & | 2
 \end{bmatrix}
 
@@ -63,6 +63,7 @@ x_2 + x_3 &= 2
 \end{aligned}
 
 Langkah 4: Substitusi
+
 Dari persamaan kedua:
 
 \begin{array}{cc}
@@ -72,9 +73,9 @@ x_2 = 2 - x_3
 Substitusikan ke persamaan pertama:
 
 \begin{array}{cc}
-x_1 + 2(2 - x_3) + 3x_3& = 6\\
-x_1 + 4 - 2x_3 + 3x_3& = 6\\
-x_1 + 4 + x_3& = 6\\
+x_1 + 2(2 - x_3) + 3x_3& = 6\
+x_1 + 4 - 2x_3 + 3x_3& = 6\
+x_1 + 4 + x_3& = 6\
 x_1 =& 2 - x_3
 \end{array}
 
@@ -82,8 +83,8 @@ Kesimpulan
 Solusi umum dari sistem ini adalah:
 
 \begin{aligned}
-x_1 &= 2 - x_3 \\
-x_2 &= 2 - x_3 \\
+x_1 &= 2 - x_3 \
+x_2 &= 2 - x_3 \
 x_3 &= x_3
 \end{aligned}
 
@@ -102,8 +103,8 @@ Penyelesaian
 Langkah 1: Tulis dalam Bentuk Matriks Augmented
 
 \begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-2 & 0 & 1 & | 5 \\
+1 & 1 & 1 & | 3 \
+2 & 0 & 1 & | 5 \
 1 & 2 & 0 & | 3
 \end{bmatrix}
 
@@ -121,8 +122,8 @@ R_3 \rightarrow R_3 - R_1
 Sehingga matriks berubah menjadi:
 
 \begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-0 & -2 & -1 & | -1 \\
+1 & 1 & 1 & | 3 \
+0 & -2 & -1 & | -1 \
 0 & 1 & -1 & | 0
 \end{bmatrix}
 
@@ -135,8 +136,8 @@ R_2 \rightarrow \frac{R_2}{-2}
 Hasilnya:
 
 \begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-0 & 1 & \frac{1}{2} & | \frac{1}{2} \\
+1 & 1 & 1 & | 3 \
+0 & 1 & \frac{1}{2} & | \frac{1}{2} \
 0 & 1 & -1 & | 0
 \end{bmatrix}
 
@@ -148,8 +149,8 @@ R_3 \rightarrow R_3 - R_2
 
 Sehingga diperoleh:
 \begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-0 & 1 & \frac{1}{2} & | \frac{1}{2} \\
+1 & 1 & 1 & | 3 \
+0 & 1 & \frac{1}{2} & | \frac{1}{2} \
 0 & 0 & -\frac{3}{2} & | -\frac{1}{2}
 \end{bmatrix}
 Langkah 3: Substitusi Balik*
@@ -197,8 +198,8 @@ x_1 = 3 - \frac{2}{3} = \frac{9}{3} - \frac{2}{3} = \frac{7}{3}
 Kesimpulan
 Jadi, solusi dari sistem persamaan adalah:
 \begin{aligned}
-x_1 &= \frac{7}{3} \\
-x_2 &= \frac{1}{3} \\
+x_1 &= \frac{7}{3} \
+x_2 &= \frac{1}{3} \
 x_3 &= \frac{1}{3}
 \end{aligned}
 
@@ -217,7 +218,7 @@ Penyelesaian
 Langkah 1 : Menyelesaikan ke bentuk matriks augmented 
 
 \begin{bmatrix} 
-2 & 2 & | 4 \\ 
+2 & 2 & | 4 \ 
 1 & 1 & | 2 
 \end{bmatrix}
 
@@ -240,7 +241,7 @@ $$
 Sehingga matriks augmented menjadi : 
 
 \begin{bmatrix} 
-1 & 1 & | 2 \\
+1 & 1 & | 2 \
 0 & 0 & | 0 
 \end{bmatrix}
 
@@ -260,7 +261,7 @@ x_1 = 2 - t
 Jadi, solusi umum dari sistem persamaan ini adalah:
 
 \begin{cases} 
-x_1 = 2 - t\\
+x_1 = 2 - t\
 x_2 = t
 \end{cases}
 
@@ -280,7 +281,7 @@ Penyelesaian :
 1. Tulis sistem persamaan dalam bentuk matriks augmented:
 
 \begin{bmatrix}
-1 & 1 & 0 & | & 5 \\
+1 & 1 & 0 & | & 5 \
 1 & 0 & 2 & | & 4
 \end{bmatrix}
 
@@ -295,7 +296,7 @@ R_2 \rightarrow R_2
 Hasilnya : 
 
 \begin{bmatrix}
-1 & 1 & 0 & | & 5 \\
+1 & 1 & 0 & | & 5 \
 0 & -1 & 2 & | & -1
 \end{bmatrix}
 
@@ -306,7 +307,7 @@ R_2 \rightarrow \frac{R_2}{-1}
 Hasilnya : 
 
 \begin{bmatrix}
-1 & 1 & 0 & | & 5 \\
+1 & 1 & 0 & | & 5 \
 0 & 1 & -2 & | & 1
 \end{bmatrix}
 
@@ -327,8 +328,8 @@ x_1 + x_2 = 5 \implies x_1 + (1 + 2x_3) = 5 \implies x_1 = 4 - 2x_3
 4. Solusi Akhir:
 
 \begin{aligned}
-x_1 &= 4 - 2x_3 \\
-x_2 &= 1 + 2x_3 \\
+x_1 &= 4 - 2x_3 \
+x_2 &= 1 + 2x_3 \
 x_3 &= x_3
 \end{aligned}
 
