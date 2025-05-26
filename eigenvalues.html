@@ -179,7 +179,6 @@
 
 
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Eigenvalues dan Eigenvectors</a></li>
-
 </ul>
 
     </div>
@@ -372,24 +371,14 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Eigenvalues dan Eigenvectors</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-eigenvalues-dan-eigen-vector">Definisi Eigenvalues dan eigen vector</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mencari-eigenvalues-dan-eigenvectors-dengan-polynomial-characteristic">Mencari Eigenvalues dan Eigenvectors dengan polynomial characteristic</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#begin-bmatrix-x-1-x-2-end-bmatrix">\begin{bmatrix}
-x_1 \
-x_2 \
-\end{bmatrix}</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-program-contoh-soal">Code program contoh soal</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal">Contoh soal</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Contoh soal</a></li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -414,7 +403,7 @@ Transformasi linier untuk eigenvector menghasilkan peregangan vektor
 sebanyak eigenvalue kali.</p>
 <p>Misalkan <span class="math notranslate nohighlight">\(A\)</span> adalah matrik bujur sangkar dengan derat <span class="math notranslate nohighlight">\(n\)</span>. JIka terdapat
 vektor tidak nol <span class="math notranslate nohighlight">\(x\)</span> dan skalar <span class="math notranslate nohighlight">\(\lambda\)</span> sehingga <span class="math notranslate nohighlight">\(Ax\)</span> = <span class="math notranslate nohighlight">\( \lambda x\)</span>
-maka <span class="math notranslate nohighlight">\(\lambda\)</span> disebut eigenvalue dari <span class="math notranslate nohighlight">\(A\)</span>, dan <span class="math notranslate nohighlight">\(x\)</span> disebut eigenvector, yang nilainyabersesuai dengan eigenvalue <span class="math notranslate nohighlight">\(\lambda\)</span>3</p>
+maka <span class="math notranslate nohighlight">\(\lambda\)</span> disebut eigenvalue dari <span class="math notranslate nohighlight">\(A\)</span>, dan <span class="math notranslate nohighlight">\(x\)</span> disebut eigenvector, yang nilainyabersesuai dengan eigenvalue <span class="math notranslate nohighlight">\(\lambda\)</span> 3</p>
 </section>
 <section id="mencari-eigenvalues-dan-eigenvectors-dengan-polynomial-characteristic">
 <h2>Mencari Eigenvalues dan Eigenvectors dengan polynomial characteristic<a class="headerlink" href="#mencari-eigenvalues-dan-eigenvectors-dengan-polynomial-characteristic" title="Link to this heading">#</a></h2>
@@ -466,21 +455,20 @@ A = \begin{bmatrix}
 <li><p>Langkah 2: Mencari Eigenvector</p></li>
 </ul>
 <p>Substitusikan <span class="math notranslate nohighlight">\(\lambda = 3\)</span> ke persamaan <span class="math notranslate nohighlight">\((A - \lambda I)x = 0\)</span>:</p>
-<p>(A - 3I)x = \begin{bmatrix}
-0 &amp; 0 \
-0 &amp; 0 \
-\end{bmatrix}</p>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="begin-bmatrix-x-1-x-2-end-bmatrix">
-<h1>\begin{bmatrix}
-x_1 \
-x_2 \
-\end{bmatrix}<a class="headerlink" href="#begin-bmatrix-x-1-x-2-end-bmatrix" title="Link to this heading">#</a></h1>
-<p>\begin{bmatrix}
-0 \
-0 \
-\end{bmatrix}</p>
+<p><span class="math notranslate nohighlight">\(
+(A - 3I)x = \begin{bmatrix}
+0 &amp; 0 \\
+0 &amp; 0 \\
+\end{bmatrix}\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\begin{bmatrix}
+x_1 \\
+x_2 \\
+\end{bmatrix} = \begin{bmatrix}
+0 \\
+0 \\
+\end{bmatrix}
+\)</span></p>
 <p>Karena semua elemen nol, maka semua vektor non-nol adalah solusi.
 Maka, eigenvector-nya bisa berupa sembarang vektor tak nol:</p>
 <div class="math notranslate nohighlight">
@@ -595,6 +583,7 @@ x = \begin{bmatrix}
 </ul>
 </li>
 </ul>
+</section>
 <section id="code-program-contoh-soal">
 <h2>Code program contoh soal<a class="headerlink" href="#code-program-contoh-soal" title="Link to this heading">#</a></h2>
 <section id="contoh-soal">
@@ -746,24 +735,14 @@ Urutan Eigenvector berdasarkan Eigenvalue:
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Eigenvalues dan Eigenvectors</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-eigenvalues-dan-eigen-vector">Definisi Eigenvalues dan eigen vector</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mencari-eigenvalues-dan-eigenvectors-dengan-polynomial-characteristic">Mencari Eigenvalues dan Eigenvectors dengan polynomial characteristic</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#begin-bmatrix-x-1-x-2-end-bmatrix">\begin{bmatrix}
-x_1 \
-x_2 \
-\end{bmatrix}</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-program-contoh-soal">Code program contoh soal</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-soal">Contoh soal</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Contoh soal</a></li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-
   </nav></div>
 
 </div></div>
